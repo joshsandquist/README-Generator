@@ -2,7 +2,7 @@
 A node application to generate a professional README
 
 ## Installation
-Requires npm and the intstalling the inquirer version 8.2.4 package
+Requires npm and intstalling the inquirer version 8.2.4 package
 
 ## Description
 This project was designed to generate a high quality README file by taking in user input using nodejs. Running the file will prompt the user
