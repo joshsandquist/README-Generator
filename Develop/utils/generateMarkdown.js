@@ -32,25 +32,32 @@ function renderLicenseSection(license) {
   if (license === 'MIT') {
     return `## License
 
-This project is licensed under the ${renderLicenseLink(license)}.
+  This project is licensed under the ${renderLicenseLink(license)}.
     `;
-  } else if (license === 'Apache 2.0') {
+  } else if (license === 'Apache') {
     return `## License
 
-This project is licensed under the ${renderLicenseLink(license)}.
+  This project is licensed under the ${renderLicenseLink(license)}.
     `;
-  } else if (license === 'GPLv3') {
+  } else if (license === 'GPL3') {
     return `## License
 
-This project is licensed under the ${renderLicenseLink(license)}.
+  This project is licensed under the ${renderLicenseLink(license)}.
     `;
   } else {
     return '';
   }
 }
 
+// This function combines all of out user data into a markdown template.
 function generateMarkdown(data) {
+  // variables that take the user input for license, run them in our previous functions, and concatinate them into the markdown.
+  const licenseBadge = renderLicenseBadge(data.license);
+  const licenseSection = renderLicenseSection(data.license);
+
   return `# ${data.title}
+
+  ${licenseBadge}
 
   ## Description
   ${data.description}
@@ -69,8 +76,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
-  This project is licensed with the ${data.license} license.
+  ${licenseSection}
 
   ## Contributing
   ${data.contributing}

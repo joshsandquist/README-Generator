@@ -24,7 +24,7 @@ const questions = [
       {
         type: 'input',
         name: 'contributing',
-        message: 'Please provide information oh how to contribute:',},
+        message: 'Please provide information on how to contribute:',},
       {
         type: 'input',
         name: 'tests',
