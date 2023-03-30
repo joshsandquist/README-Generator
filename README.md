@@ -20,6 +20,14 @@ N/A
 
 ## Screenshots
 
+User interface:
+
+<img width="857" alt="Screenshot 2023-03-29 at 5 31 54 PM" src="https://user-images.githubusercontent.com/104536533/228699497-8ab4a636-a8d1-4a8e-9956-c6bff4608a02.png">
+
+Generated README:
+
+<img width="1118" alt="Screenshot 2023-03-29 at 5 32 11 PM" src="https://user-images.githubusercontent.com/104536533/228699556-33a13566-6c5b-4803-ac6c-fedecdf8d41b.png">
+
 ## Video Link
 
 https://drive.google.com/file/d/1v_pXuNRYGCwRwgFnzjjKYNmsDPuZHAX6/view
