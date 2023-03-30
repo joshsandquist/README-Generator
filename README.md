@@ -6,7 +6,7 @@ Requires npm and intstalling the inquirer version 8.2.4 package
 
 ## Description
 This project was designed to generate a high quality README file by taking in user input using nodejs. Running the file will prompt the user
-to answer multiple questions that will then generate a new README file taking in their inputs. Starter code was used from the University of Arizona class repo. 
+to answer multiple questions that will then generate a new README file taking in their inputs. This project used JavaScript, NodeJs, and the NPM fs and inquirer packages. Starter code was used from the University of Arizona class repo. 
 
 ## Usage
 To run this application, first install all required dependencies. After installation, run the command 'node index' to initialize the file.
